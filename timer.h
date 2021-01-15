@@ -1,6 +1,7 @@
+#include <iostream>
 class Timer
 {
 public:
-	Timer(std::string);
+	Timer(const std::string &arg);
 
 };	
