@@ -1,5 +1,5 @@
 #include <iostream>
-class Timer
+class GraphicsConsole : Timer
 {
 public:
 	Timer(const std::string &arg);
