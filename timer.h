@@ -1,6 +1,7 @@
-class Timer
+#include <iostream>
+class GraphicsConsole : Timer
 {
 public:
-	Timer(std::string);
+	Timer(const std::string &arg);
 
 };	
