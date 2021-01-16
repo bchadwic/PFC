@@ -1,4 +1,3 @@
-#include "GraphicsConsole.h"
 #include <iostream>
 #include <windows.h>
 
@@ -11,7 +10,8 @@ private:
 	CONSOLE_SCREEN_BUFFER_INFO csbi;
 public:
 	GraphicsConsole();
-	void setCurrentColor();
+	void flushBuffer();
+   void setCurrentColor();
 	void getCurrentColor();
 	void bgRed();
 	void fgRed();
@@ -19,4 +19,4 @@ public:
 	void fgGreen();
 	void bgBlue();
 	void fgBlue();
-}
+};

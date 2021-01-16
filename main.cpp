@@ -1,14 +1,13 @@
+#include "GraphicsConsole.h"
 #include <iostream>
 #include <windows.h>
-#include "timer.h"
 
 int main(){
 
 		
 	std::cout << "Hello World" << std::endl;
 
-	Timer *obj = new Timer("break");
-	
+	 GraphicsConsole *gc = new GraphicsConsole();	
 	
 	return 0;	
 		
